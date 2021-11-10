@@ -13,11 +13,11 @@ if [ "$first" != 1 ];then
 		aarch64)
 			archurl="i386" ;;
 		arm)
-			archurl="armhf" ;;
+			archurl="i386" ;;
 		amd64)
-			archurl="amd64" ;;
+			archurl="i386" ;;
 		x86_64)
-			archurl="amd64" ;;	
+			archurl="i386" ;;	
 		i*86)
 			archurl="i386" ;;
 		x86)
